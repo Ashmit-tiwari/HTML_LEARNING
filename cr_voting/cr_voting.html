@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CR Election - Engineering Class</title>
+</head>
+<body>
+
+<h1>Class Representative Election</h1>
+<p>Engineering Batch - Cast your vote below</p>
+
+<form action="#" method="get">
+
+  <h2>Your Details</h2>
+
+  <label for="voterName">Full Name:</label><br>
+  <input type="text" id="voterName" name="voterName" required><br><br>
+
+  <label for="uid">UID / Roll Number:</label><br>
+  <input type="text" id="uid" name="uid" required><br><br>
+
+  <label for="course">Course / Branch:</label><br>
+  <select id="course" name="course" required>
+    <option value="">-- Select your branch --</option>
+    <option>Computer Science Engineering</option>
+    <option>Electronics & Communication Engineering</option>
+    <option>Mechanical Engineering</option>
+    <option>Civil Engineering</option>
+    <option>Electrical Engineering</option>
+    <option>Information Technology</option>
+    <option>AI & Data Science</option>
+  </select><br><br>
+
+  <label>Year:</label><br>
+  <input type="radio" id="y1" name="year" value="1st Year" required>
+  <label for="y1">1st Year</label><br>
+
+  <input type="radio" id="y2" name="year" value="2nd Year">
+  <label for="y2">2nd Year</label><br>
+
+  <input type="radio" id="y3" name="year" value="3rd Year">
+  <label for="y3">3rd Year</label><br>
+
+  <input type="radio" id="y4" name="year" value="4th Year">
+  <label for="y4">4th Year</label><br><br>
+
+  <h2>Pick Your CR (choose one)</h2>
+
+  <input type="radio" id="c1" name="candidate" value="Modiji" required>
+  <label for="c1">Modiji</label><br>
+
+  <input type="radio" id="c2" name="candidate" value="Rahul Gandhi">
+  <label for="c2">Rahul Gandhi</label><br>
+
+  <input type="radio" id="c3" name="candidate" value="Arvind Kejriwal">
+  <label for="c3">Arvind Kejriwal</label><br><br>
+
+  <input type="submit" value="Cast My Vote">
+  <input type="reset" value="Clear Form">
+
+</form>
+
+<p>One vote per student. Results will be announced by the faculty coordinator.</p>
+
+</body>
+</html>
